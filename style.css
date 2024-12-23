@@ -260,3 +260,60 @@ footer {
         text-align: center;
     }
 }
+#resume, #contact {
+    padding: 20px;
+    color: white;
+}
+
+#resume h2, #contact h2 {
+    text-align: center;
+    color: rgba(27, 214, 21, 0.478);
+    text-shadow: 0 0 10px #077b326a;
+}
+
+.resume-content, .contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.resume-btn button, .contact-form button {
+    background-color: #077b32;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin: 20px;
+}
+
+.resume-btn button:hover, .contact-form button:hover {
+    background-color: transparent;
+    border: 2px solid #077b32;
+    color: #077b32;
+}
+
+.contact-form .form-group {
+    margin: 15px 0;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border: 2px solid #077b32;
+}
+
+@media (max-width: 589px) {
+    .resume-content, .contact-form {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
