@@ -1,141 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <title>Hitesh Portfolio</title>
-</head>
-<body>
-    <nav>
-        <div class="nav-container">
-            <div class="logo" data-aos="zoom-in" data-aos-duration="1500"> 
-                <span>HITESH</span>
-            </div>
-            <div class="links">
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="./index.html">Home</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#Resume">Resume</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#Projects">Projects</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
-            </div>
-            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-dark nav-container text-white">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#" data-aos="zoom-in" data-aos-duration="1500" >Hitesh</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
+              </li>
+           
+               
+              <li class="link nav-item ">
+                <a href="#Resume" class="nav-link active text-white" aria-current="page">Resume</a>
+              </li>
+              <li class="link nav-item">
+                <a href="#skills" class="nav-link active text-white" aria-current="page">Skills</a>
+              </li>
+              <li class="link nav-item">
+                <a href="#Projects" class="nav-link active text-white" aria-current="page">Projects</a>
+              </li>
+              <li class="link nav-item">
+                <a href="#contact" class="nav-link active text-white" aria-current="page">Contact</a>
+              </li>
+                
+            
+          </div>
         </div>
-    </nav>
+      </nav>
+    
+    
 
     <section id="home">
-        <div class="main-container">
-            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
-                <img src="./images/WhatsApp Image 2024-11-28 at 09.22.36_36d84a52.jpg" alt="Hitesh">
-            </div>
-            <div class="content">
-                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Hitesh</span></h1>
-                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I am a passionate web developer with experience in both front-end and back-end technologies. I'm always eager to learn and improve my skills. Check out my portfolio to see some of the projects I've worked on!</p>
-                <div class="social-links">
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
-                </div>
-                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
-                    <button>Hire me</button>
-                </div>
-            </div>
+      <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+          <img
+            src="./images/WhatsApp Image 2024-11-28 at 09.22.36_36d84a52.jpg"
+            alt="Hitesh"
+          />
         </div>
-    </section>
-    <section id="resume">
-        <div class="container">
-            <h2 data-aos="fade-up" data-aos-duration="1500">Resume</h2>
-            <div class="resume-content" data-aos="fade-up" data-aos-duration="1500">
-                <p>I am a passionate web developer with experience in various technologies. Below is a brief summary of my skills and experience.</p>
-                <ul>
-                    <li><strong>Front-End Technologies:</strong> HTML, CSS, JavaScript, React.js,Bootsrap.ini</li>
-
-                </ul>
-                <div class="resume-btn">
-                    <a href="./Hitesh khichar resume.pdf (1).pdf.pdf" target="_blank">
-                        <button>Download Resume</button>
-                    </a>
-                </div>
-            </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="700"
+          >
+            Hey I'm <span>Hitesh</span>
+          </h1>
+          <p
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="1100"
+          >
+            I am a passionate web developer with experience in both front-end
+            and back-end technologies. I'm always eager to learn and improve my
+            skills. Check out my portfolio to see some of the projects I've
+            worked on!
+          </p>
+          <div class="social-links">
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1300"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1400"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1500"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1600"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+          <div
+            class="btn"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="1800"
+          >
+            <button>Hire me</button>
+          </div>
         </div>
+      </div>
     </section>
-    
+    <section id="Resume">
+      <div class="container">
+        <h2 data-aos="fade-up" data-aos-duration="1500">Resume</h2>
+        <div class="resume-content" data-aos="fade-up" data-aos-duration="1500">
+          <p>
+            I am a passionate web developer with experience in various
+            technologies. Below is a brief summary of my skills and experience.
+          </p>
+          <ul>
+            <li>
+              <strong>Front-End Technologies:</strong> HTML, CSS, JavaScript,
+              React.js,Bootsrap.ini
+            </li>
+          </ul>
+          <div class="resume-btn">
+            <a href="./Hitesh khichar resume.pdf (1).pdf.pdf" target="_blank">
+              <button>Download Resume</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li class="box"><img src="./images/c.bbbbbabc8c191bfb99bf.png"  alt=""></li>
-                <li class="box"><img src="./images/c++.9ee9755b83ae8c84e864.png" alt="" ></li>
-                <li class="box"><img src="./images/html.1d7b133e22ffe4829da6.png" alt="" ></li>
-                <li class="box"><img src="./images/css.38845b25c2c40b029c01.png" alt=""></li>
-                <li class="box"><img src="./images/js.cf7522f436d6510da302.png" alt="" ></li>
-                <li class="box"><img src="./images/react.80045de70681e3171446.png" alt="" ></li>
-            </ul>
-        </div>
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li class="box">
+            <img src="./images/c.bbbbbabc8c191bfb99bf.png" alt="" />
+          </li>
+          <li class="box">
+            <img src="./images/c++.9ee9755b83ae8c84e864.png" alt="" />
+          </li>
+          <li class="box">
+            <img src="./images/html.1d7b133e22ffe4829da6.png" alt="" />
+          </li>
+          <li class="box">
+            <img src="./images/css.38845b25c2c40b029c01.png" alt="" />
+          </li>
+          <li class="box">
+            <img src="./images/js.cf7522f436d6510da302.png" alt="" />
+          </li>
+          <li class="box">
+            <img src="./images/react.80045de70681e3171446.png" alt="" />
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project" data-aos="zoom-in" data-aos-duration="1500">
-                <h3>Food Website</h3>
-                <p> <img src="./modern-food-website-design_1020200-20349.webp" alt="" style="height: 100px; border-radius: 20px;">>A responsive website built with HTML, CSS, and JavaScript for a food delivery platform.</p>
-            </div>
-            <div class="project" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">
-                <h3>Travel Website</h3>
-                <p> <img src="./travel-website-design_198067-958355.webp" alt="" style="height: 100px; border-radius: 20px;">>A travel booking platform built using React.js, Node.js, and Express.js.</p>
-            </div>
-            <div class="project" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600">
-                <h3>Microsoft Clone</h3>
-                <p> <img src="./microsoft.webp" alt="" style=" border-radius: 20px;">>A clone of the Microsoft homepage using HTML, CSS, and JavaScript.</p>
-            </div>
-            <div class="project" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="900">
-                <h3>Netflix Clone</h3>
-                <p> <img src="./netflix.94c3fb908dd68da0033f.png " alt="" style="height: 100px; border-radius: 20px;">>A Netflix clone built with React.js and styled using CSS.</p>
-            </div>
+    <section id="Projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project" data-aos="zoom-in" data-aos-duration="1500">
+          <h3>Food Website</h3>
+          <p>
+            <img src="" alt="" style="height: 100px; border-radius: 20px" />>A
+            responsive website built with HTML, CSS, and JavaScript for a food
+            delivery platform.
+          </p>
         </div>
+        <div
+          class="project"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="300"
+        >
+          <h3>Travel Website</h3>
+          <p>
+            <img src="" alt="" style="height: 100px; border-radius: 20px" />>A
+            travel booking platform built using React.js, Node.js, and
+            Express.js.
+          </p>
+        </div>
+        <div
+          class="project"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="600"
+        >
+          <h3>Microsoft Clone</h3>
+          <p>
+            <img src="" alt="" style="border-radius: 20px" />>A clone of the
+            Microsoft homepage using HTML, CSS, and JavaScript.
+          </p>
+        </div>
+        <div
+          class="project"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          data-aos-delay="900"
+        >
+          <h3>Netflix Clone</h3>
+          <p>
+            <img src="" alt="" style="height: 100px; border-radius: 20px" />>A
+            Netflix clone built with React.js and styled using CSS.
+          </p>
+        </div>
+      </div>
     </section>
     <section id="contact">
-        <div class="container">
-            <h2 data-aos="fade-up" data-aos-duration="1500">Contact</h2>
-            <div class="contact-form" data-aos="fade-up" data-aos-duration="1500">
-                <form action="YOUR_BACKEND_URL" method="POST">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <button type="submit">Send Message</button>
-                </form>
+      <div class="container">
+        <h2 data-aos="fade-up" data-aos-duration="1500">Contact</h2>
+        <div class="contact-form" data-aos="fade-up" data-aos-duration="1500">
+          <form action="YOUR_BACKEND_URL" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
             </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
         </div>
+      </div>
     </section>
-    
 
     <footer>
-        <p>&copy; 2024 Hitesh. All Rights Reserved.</p>
+      <p>&copy; 2024 Hitesh. All Rights Reserved.</p>
     </footer>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init({offset:0});
-        function hamburg() {
-    const dropdown = document.querySelector('.dropdown');
-    dropdown.style.transform = 'translateY(0)';
-}
+      AOS.init({ offset: 0 });
+      function hamburg() {
+        const dropdown = document.querySelector(".dropdown");
+      }
 
-    </script>
     
-</body>
+    </script>
+  </body>
 </html>
