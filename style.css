@@ -18,7 +18,7 @@ nav {
   height: 10vh;
   position: sticky;
   top: 0;
-  background-color: #545454;
+  background-color: #000000;
   z-index: 10;
 }
 
@@ -61,16 +61,16 @@ section {
 }
 
 .image {
-  border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 0 50px #077b32;
-  width: fit-content;
+  border-radius: 50%;
 }
 
 .image img {
   width: 300px;
   height: 300px;
-  object-fit: cover;
+  background-color: white;
+  object-fit: contain;
 }
 
 .content {
